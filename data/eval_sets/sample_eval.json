@@ -1,0 +1,112 @@
+[
+  {
+    "question": "When are performance reviews conducted?",
+    "ground_truth_answer": "Performance reviews are conducted annually in December, and mid-year reviews take place in June.",
+    "ground_truth_sources": ["hr_policy.txt"],
+    "relevant_chunks": [
+      "- Performance reviews are conducted annually in December.",
+      "- Mid-year reviews take place in June to track goals."
+    ]
+  },
+  {
+    "question": "How many days of remote work are permitted?",
+    "ground_truth_answer": "Remote work is permitted up to 2 days per week with manager approval.",
+    "ground_truth_sources": ["hr_policy.txt"],
+    "relevant_chunks": [
+      "- Remote work is permitted up to 2 days per week with manager approval."
+    ]
+  },
+  {
+    "question": "How many days of paid sick leave am I entitled to?",
+    "ground_truth_answer": "Employees are entitled to 10 days of paid sick leave per year.",
+    "ground_truth_sources": ["leave_policy.txt"],
+    "relevant_chunks": [
+      "- Sick Leave: Employees are entitled to 10 days of paid sick leave per year; long-term sickness requires a medical certificate and coordination with HR."
+    ]
+  },
+  {
+    "question": "Can I carry over unused annual leave to the next year?",
+    "ground_truth_answer": "Yes, up to 5 unused days may be carried into the following year with manager approval, but they must be used within the first 90 days of the new year.",
+    "ground_truth_sources": ["leave_policy.txt"],
+    "relevant_chunks": [
+      "- Up to 5 unused days may be carried into the following year with manager approval.",
+      "- Any carried-over days must be used within the first 90 days of the new year or they will expire."
+    ]
+  },
+  {
+    "question": "How many days of paid annual leave do full-time employees get?",
+    "ground_truth_answer": "Full-time employees get 20 days of paid annual leave per year.",
+    "ground_truth_sources": ["leave_policy.txt"],
+    "relevant_chunks": [
+      "- Full-time employees: 20 days per year, prorated for part-time staff."
+    ]
+  },
+  {
+    "question": "Is alcohol a reimbursable expense?",
+    "ground_truth_answer": "No, alcohol is not reimbursable unless associated with approved client entertainment.",
+    "ground_truth_sources": ["expense_policy.txt"],
+    "relevant_chunks": [
+      "- Personal expenses, family travel, fines (parking, traffic), and alcohol not associated with approved client entertainment."
+    ]
+  },
+  {
+    "question": "Within how many days should expense reports be submitted?",
+    "ground_truth_answer": "Expense reports should be submitted within 30 days of the expense date.",
+    "ground_truth_sources": ["expense_policy.txt"],
+    "relevant_chunks": [
+      "- Expense reports should be submitted within 30 days of the expense date."
+    ]
+  },
+  {
+    "question": "Who needs to approve expenses above $500?",
+    "ground_truth_answer": "Expenses above $500 require both manager and finance approval before reimbursement.",
+    "ground_truth_sources": ["expense_policy.txt"],
+    "relevant_chunks": [
+      "- Expenses above $500 require manager and finance approval before reimbursement."
+    ]
+  },
+  {
+    "question": "Do I need multi-factor authentication?",
+    "ground_truth_answer": "Yes, multi-factor authentication (MFA) is required for all corporate accounts.",
+    "ground_truth_sources": ["it_security.txt"],
+    "relevant_chunks": [
+      "- Multi-factor authentication (MFA) is required for all corporate accounts."
+    ]
+  },
+  {
+    "question": "Where should I report phishing emails?",
+    "ground_truth_answer": "Suspected phishing emails should be reported immediately to security@company.example.",
+    "ground_truth_sources": ["it_security.txt"],
+    "relevant_chunks": [
+      "- Report suspected phishing emails immediately to security@company.example and delete them."
+    ]
+  },
+  {
+    "question": "What is the hotel booking cap for standard business destinations?",
+    "ground_truth_answer": "Hotel bookings are capped at $200 per night for standard business destinations.",
+    "ground_truth_sources": ["travel_policy.txt"],
+    "relevant_chunks": [
+      "- Hotel bookings are capped at $200 per night for standard business destinations."
+    ]
+  },
+  {
+    "question": "Can I book a business class flight for an international trip?",
+    "ground_truth_answer": "Yes, business class is permitted for international flights exceeding 6 hours with VP approval.",
+    "ground_truth_sources": ["travel_policy.txt"],
+    "relevant_chunks": [
+      "- Business class is permitted for international flights exceeding 6 hours with VP approval."
+    ]
+  },
+  {
+    "question": "What is the company policy on bringing pets to the office?",
+    "ground_truth_answer": "I don't have enough information to answer that question.",
+    "ground_truth_sources": [],
+    "relevant_chunks": []
+  },
+  {
+    "question": "How much salary bonus do we get at the end of the year?",
+    "ground_truth_answer": "I don't have enough information to answer that question.",
+    "ground_truth_sources": [],
+    "relevant_chunks": []
+  }
+]
